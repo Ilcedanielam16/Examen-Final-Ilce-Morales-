@@ -21,5 +21,14 @@ int main()
     cout << "Ingrese un numero:" << endl;
     cin >> num;
     // Comience a programar desde aquí
+    if (num == 2 || num == 3 || num == 4 || num == 5 || num == 7)
+    {
+        cout << "El numero no es estribogramatico ";
+    }
+    else
+    {
+        cout << "El numero es Estribogrmamatico ";
+    }
+
     return 0;
 }
